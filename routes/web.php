@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/inputform', function () {
+    return view('inputform');
+})->name('inputform');
